@@ -19,37 +19,33 @@ Os desafios podem ser resolvidos em diferentes linguagens de programação, conf
 
 ## Organização do repositório
 
-Os desafios são organizados por numeração que referencia a data da resolução do código, facilitando a identificação e o acompanhamento das soluções.
-Exemplo: 
-desafio da data 07/11/2026 terá nomeação 07112026.py
+Os desafios são organizados em pastas individuais, identificadas pelo nome do desafio e pela data de resolução no formato DDMMAAAA.
+
+Exemplo: um desafio resolvido em 07/11/2026 será armazenado na pasta validador_de_senha_07112026/.
 
 Exemplo de estrutura:
 
 ```
 desafio_do_codigo/
 |
-├── nome_do_desafio_07112026/
-│   └── solucao_07112026.py
+├── validador_de_senha_07112026/
+│   └── solucao.py
 │
 ├── nome_do_desafio_08112026/
-│   └── solucao_08112026.py
+│   └── solucao.py
 │
 ├── nome_do_desafio_09112026/
-    └── solucao_09112026.py
+    └── solucao.py
 ```
-
-A estrutura poderá ser adaptada conforme a linguagem e a complexidade de cada desafio.
 
 ## Como executar
 
 Para executar uma solução desenvolvida em Python, utilize o terminal na pasta raiz do repositório:
 
 ```bash
-python desafio_001/solucao.py
+python validador_de_senha_07112026/solucao.py
 ```
 
-Para soluções em outras linguagens/
-    └── solucoes em outras linguagens, será necessário utilizar o ambiente de execução correspondente.
 
 ## Metodologia
 
